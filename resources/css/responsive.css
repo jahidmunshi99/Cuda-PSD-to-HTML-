@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1024px){
+    nav{
+        margin: 0rem 3.5rem;
+    }
+
+    html{
+        font-size: 57.5%;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .hero-text-box{
+        padding: 0 10rem;
+    }
+
+    .hero-text-box h1{
+        font-size: 4rem;
+    }
+    
+}
