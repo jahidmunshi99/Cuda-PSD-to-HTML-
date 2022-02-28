@@ -73,9 +73,9 @@ h4{
     text-align: center;
 }
 
-/* .box{
-    padding: 0.5%;
-} */
+.box{
+    padding: 1%;
+}
 
 .box p{
     font-size: 1.6rem;
