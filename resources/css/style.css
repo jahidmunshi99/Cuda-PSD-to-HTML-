@@ -342,7 +342,7 @@ svg.ui-ux circle{
 }
 
 .portfolio-filter{
-    margin: 5.0rem 0;
+    margin: 4.5rem 0;
 }
 
 .portfolio-filter button{
@@ -365,10 +365,9 @@ svg.ui-ux circle{
     background: #fff;
 }
 
-.portfolio-section :nth-child(3),
-.portfolio-section :nth-child(4){
+/* .portfolio-section .box{
     margin-top: 4rem;
-}
+} */
 
 .portfolio-section .box img{
     width: 100%;
@@ -394,8 +393,8 @@ svg.ui-ux circle{
     background: #fff;
 }
 
-.about-section .little-discription{
-    margin-bottom: 5rem;
+.about-section .box{
+    margin-top: 5rem;
 }
 
 .about-section .col:nth-child(3){
@@ -403,7 +402,7 @@ svg.ui-ux circle{
 }
 .about-section .col:nth-child(3),
 .about-section .col:nth-child(4){
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .client-info{
