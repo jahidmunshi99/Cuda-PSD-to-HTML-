@@ -7,12 +7,17 @@
         font-size: 57.5%;
     }
 
+    .row{
+        margin: 0px 15px;
+    }
+
     .nav-menu{
         display: none;
     }
 
     .hero-text-box{
-        padding: 0 10rem;
+        padding: 0 5rem;
+        width: 100%;
     }
 
     .hero-text-box h1{
@@ -44,10 +49,7 @@
     }
 }
 
-@media only screen and (max-width: 980px){
-
-    header{height: 50vh;}
-    
+@media only screen and (max-width: 980px){  
     .services-section .span_1_of_4,
     .team-section .span_1_of_4,
     .skills-section .span_1_of_4{
@@ -58,8 +60,45 @@
     .skills-section .span_1_of_4:nth-child(3){
 		margin-left: 0;
 	}
+}
 
-    html{
-        font-size: 61%;
+@media only screen and (max-width: 768px){
+    header{
+        height: 60vh;
+    }  
+    .hero-text-box h1{
+        font-size: 3.5rem;
+    }
+
+    h2{
+        font-size: 3.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .little-discription{
+        width: 100%;
+        margin-left: 0;
     }
 }
+@media only screen and (max-width: 480px){
+    .services-section .span_1_of_4,
+    .team-section .span_1_of_4,
+    .skills-section .span_1_of_4{
+		width: 100%;
+	}
+
+    .portfolio-filter{
+        margin: 2rem 0;
+    }
+
+    .portfolio-filter button{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+

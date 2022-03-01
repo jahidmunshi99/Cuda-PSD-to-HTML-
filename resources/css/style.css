@@ -38,7 +38,7 @@ ul li{
 }
 
 section{
-    padding: 8rem;
+    padding: 8rem 0rem;
 }
 
 h2{
@@ -118,9 +118,9 @@ header{
     position: relative;
 }
 
-.hero-text-box{
+/* .hero-text-box{
     max-width: 114rem;
-}
+} */
 
 nav{
     padding-top: 4.5rem;
@@ -165,7 +165,7 @@ nav{
     background-color: #643a79;
 }
 .hero-text-box{
-    width: 100%;
+    max-width: 114rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -500,25 +500,25 @@ svg.ui-ux circle{
 /* ============== CONTACT SECTION End ================ */
 
 /* ============== FOOTER SECTION STARTING ================ */
-footer{
+.footer-section{
     background-color: #344B8E;
     padding: 3rem 0;
     text-align: center;
     border-top: 0.2rem solid #7181B0;
 }
 
-footer ul li{
+.footer-section ul li{
     display: inline-block;
     margin: 0 2rem;
 }
 
-footer ul li a{
-    font-size: 2.2rem;
+.footer-section ul li a{
+    font-size: 2.4rem;
     color: #fff;
     text-decoration: none;
 }
 
-footer ul li:hover a{
+.footer-section ul li:hover a{
     color: #4bd1fd;
 }
 /* ============== FOOTER SECTION END ================ */
