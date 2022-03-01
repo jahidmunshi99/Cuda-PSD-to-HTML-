@@ -167,8 +167,9 @@ nav{
 
 .mobile-menu{
     display: none;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
+    margin-right: 0.5rem;
 }
 
 .hero-text-box{
