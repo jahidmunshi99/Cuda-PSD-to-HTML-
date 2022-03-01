@@ -164,8 +164,16 @@ nav{
 .active{
     background-color: #643a79;
 }
+
+.mobile-menu{
+    display: none;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
 .hero-text-box{
-    max-width: 114rem;
+    /* max-width: 114rem; */
+    width: 114rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
