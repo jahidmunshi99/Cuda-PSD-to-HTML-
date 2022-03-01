@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1024px){
     nav{
         margin: 0rem 3.5rem;
     }
@@ -17,6 +17,10 @@
 
     .nav-menu{
         display: none;
+    }
+
+    .mobile-menu{
+        display: block;
     }
 
     .hero-text-box{
@@ -64,6 +68,10 @@
     .skills-section .span_1_of_4:nth-child(3){
 		margin-left: 0;
 	}
+
+    nav{
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -90,11 +98,9 @@
     }
 
     .hero-text-box{
-        padding: 0 2rem;
+        padding: 0 1.5rem;
         width: 100%;
     }
-
-
     .services-section .span_1_of_4,
     .team-section .span_1_of_4,
     .skills-section .span_1_of_4{
